@@ -30,7 +30,7 @@ const ProfileComponent: React.FC = () => {
    return (
       <>
          <div className="profile__image">
-            <img src="" alt="avatar" className="profile__image-img" />
+            <img src="./img/header/avatar.svg" alt="avatar" className="profile__image-img" />
          </div>
          <div className="profile__menu">
             <div className="profile__menu-icon">
