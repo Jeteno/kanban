@@ -32,10 +32,10 @@ const ProfileComponent: React.FC = () => {
          <div className="profile__image">
             <img src="./img/header/avatar.svg" alt="avatar" className="profile__image-img" />
          </div>
-         <div className="profile__menu">
-            <div className="profile__menu-icon">
+         <div className="profile__menu-icon">
                <span></span>
-            </div>
+         </div>
+         <div className="profile__menu">
             <nav className="profile__menu-content">
                <ul className="profile__menu-content-list">
                   {cardBlocks}
